@@ -8,8 +8,8 @@ sudo sed -i -n '/^'$1'/p' 1.txt
 #提取函数
 sudo sed -i 's/^.*://' 1.txt
 #整理函数
-sudo sort 1.txt | uniq > fun_$1.txt 
+sudo sort 1.txt | uniq > ../../../../../home/iscas-ljc/doc/fun_$1.txt 
 #统计函数
-sudo sort 1.txt | uniq -c > num_fun_$1.txt
+sudo sort 1.txt | uniq -c > ../../../../../../home/iscas-ljc/doc/num_fun_$1.txt
 #删除中间文件
 sudo rm 1.txt
