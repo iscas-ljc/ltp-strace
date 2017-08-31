@@ -15,5 +15,5 @@ sort 1.txt | uniq > ../../../../../../../home/iscas-ljc/doc/func_"$a".txt
 rm -rf 1.txt
 fi
 done
-
+#对文件进行strace,并将结果输出至~/doc/下.txt文件中
 #可遍历整个文件夹
