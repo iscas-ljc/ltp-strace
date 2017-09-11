@@ -1,0 +1,15 @@
+access
+arch_prctl
+brk
+close
+execve
+fstat
+gettid
+mmap
+mprotect
+munmap
+open
+read
+rt_sigprocmask
+tgkill
+write

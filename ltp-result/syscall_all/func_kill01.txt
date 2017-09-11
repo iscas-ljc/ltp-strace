@@ -1,0 +1,17 @@
+access
+arch_prctl
+brk
+clone
+close
+execve
+exit_group
+fstat
+ioctl
+kill
+mmap
+mprotect
+munmap
+open
+read
+wait4
+write

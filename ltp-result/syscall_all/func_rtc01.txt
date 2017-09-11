@@ -1,0 +1,16 @@
+access
+arch_prctl
+brk
+close
+execve
+exit_group
+fstat
+geteuid
+ioctl
+mmap
+mprotect
+munmap
+open
+read
+select
+write

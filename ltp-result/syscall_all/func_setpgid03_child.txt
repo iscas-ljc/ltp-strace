@@ -1,0 +1,17 @@
+access
+arch_prctl
+brk
+close
+execve
+exit_group
+fstat
+ftruncate
+futex
+ioctl
+mmap
+mprotect
+munmap
+nanosleep
+open
+read
+write

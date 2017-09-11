@@ -1,0 +1,3 @@
+execve
+exit_group
+write

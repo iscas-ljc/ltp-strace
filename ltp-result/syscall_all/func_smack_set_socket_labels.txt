@@ -1,0 +1,17 @@
+access
+arch_prctl
+brk
+close
+execve
+exit_group
+flistxattr
+fstat
+ioctl
+mmap
+mprotect
+munmap
+open
+read
+rt_sigaction
+socket
+write
