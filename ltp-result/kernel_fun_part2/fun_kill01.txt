@@ -1,5 +1,3 @@
-3[23490EVENTSDROPPED]
-6[145EVENTSDROPPED]
 aa_alloc_task_context
 aa_dfa_match
 aa_dup_task_context
