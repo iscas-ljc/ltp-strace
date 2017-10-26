@@ -1,0 +1,20 @@
+step1:下载并安装gcov安装包
+# wget http://downloads.sourceforge.net/ltp/lcov-1.9.tar.gz
+# tar -zxvf lcov-1.9.tar.gz
+# cd lcov-1.9
+# make install
+
+step2:编写测试代码test.c
+
+step3:编译时添加参数
+#gcc test.c -fprofile-arcs -ftest-coverage -o test
+产生文件test.gcno
+
+step4:运行测试代码
+#./test
+产生文件test.gcda
+
+step5:解析生成文件
+#gcov -test.gcda
+产生文件test.c.gcov
+
