@@ -20,7 +20,7 @@ sudo sed -i 's/^.*://' 1.txt
 #整理函数
 sudo sort 1.txt | uniq > ~/doc/fun_"$a".txt 
 #统计函数
-#sudo sort 1.txt | uniq -c > ~/doc/num_fun_"$a".txt
+sudo sort 1.txt | uniq -c > ~/doc/num_fun_"$a".txt
 #删除中间文件
 sudo rm 1.txt
 sudo rm trace.dat
