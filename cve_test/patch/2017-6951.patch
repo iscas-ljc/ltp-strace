@@ -1,0 +1,17 @@
+diff --git a/security/keys/keyring.c b/security/keys/keyring.c
+index cdd2f3f..4250e48 100644
+--- a/security/keys/keyring.c
++++ b/security/keys/keyring.c
+@@ -318,6 +318,11 @@ key_ref_t keyring_search_aux(key_ref_t keyring_ref,
+        long err;
+        int sp, kix;
+
++       if (!match) {
++               key_ref = ERR_PTR(-EINVAL);
++               goto error;
++       }
++
+        keyring = key_ref_to_ptr(keyring_ref);
+        possessed = is_key_possessed(keyring_ref);
+        key_check(keyring);
+
