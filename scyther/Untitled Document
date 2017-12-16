@@ -1,0 +1,3 @@
+tar xvf scy*
+apt-get install python-wxtools
+apt-get install graphviz
